@@ -111,6 +111,15 @@ FlutterWindow::MessageHandler(HWND hwnd, UINT const message,
     case WM_FONTCHANGE:
       flutter_controller_->engine()->ReloadSystemFonts();
       break;
+
+    case WM_KEYDOWN:
+      if (wparam == VK_F11 || wparam == VK_ESCAPE) {
+        DWORD style = GetWindowLong(hwnd, GWL_STYLE);
+        bool is_fullscreen = (style & WS_OVERLAPPEDWINDOW) == 0;
+        SetFullscreen(!is_fullscreen);
+        return 0;
+      }
+      break;
   }
 
   return Win32Window::MessageHandler(hwnd, message, wparam, lparam);
