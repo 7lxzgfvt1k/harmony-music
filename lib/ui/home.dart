@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 
 import '/ui/screens/Home/home_screen_controller.dart';
 import '/ui/screens/Settings/settings_screen_controller.dart';
+import '/ui/utils/fullscreen_controller.dart';
 import '../utils/helper.dart';
 import '../ui/navigator.dart';
 import '../ui/player/player.dart';
@@ -62,12 +63,31 @@ class Home extends StatelessWidget {
           }
         }
       },
-      child: CallbackShortcuts(
-        bindings: {
-          LogicalKeySet(LogicalKeyboardKey.space): playerController.playPause
+      child: Focus(
+        onKeyEvent: (node, event) {
+          if (HardwareKeyboard.instance.isLogicalKeyPressed(LogicalKeyboardKey.f11)) {
+            if (GetPlatform.isDesktop) {
+              Get.find<FullscreenController>().toggleFullscreen();
+            }
+            return KeyEventResult.handled;
+          }
+          if (HardwareKeyboard.instance.isLogicalKeyPressed(LogicalKeyboardKey.escape)) {
+            if (GetPlatform.isDesktop) {
+              final fullscreenController = Get.find<FullscreenController>();
+              if (fullscreenController.isFullscreen.value) {
+                fullscreenController.exitFullscreen();
+                return KeyEventResult.handled;
+              }
+            }
+          }
+          return KeyEventResult.ignored;
         },
-        child: Obx(
-          () => Scaffold(
+        child: CallbackShortcuts(
+          bindings: {
+            LogicalKeySet(LogicalKeyboardKey.space): playerController.playPause
+          },
+          child: Obx(
+            () => Scaffold(
               bottomNavigationBar: settingsScreenController
                       .isBottomNavBarEnabled.isTrue
                   ? ScrollToHideWidget(
@@ -203,7 +223,9 @@ class Home extends StatelessWidget {
                             child: const MiniPlayer(),
                           )
                         : const MiniPlayer(),
-                  ))),
+                  )),
+            ),
+          ),
         ),
       ),
     );
