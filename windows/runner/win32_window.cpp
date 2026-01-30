@@ -216,15 +216,6 @@ Win32Window::MessageHandler(HWND hwnd,
     case WM_DWMCOLORIZATIONCOLORCHANGED:
       UpdateTheme(hwnd);
       return 0;
-
-    case WM_KEYDOWN:
-      if (wparam == VK_F11 || wparam == VK_ESCAPE) {
-        DWORD style = GetWindowLong(hwnd, GWL_STYLE);
-        bool is_fullscreen = (style & WS_OVERLAPPEDWINDOW) == 0;
-        SetFullscreen(!is_fullscreen);
-        return 0;
-      }
-      break;
   }
 
   return DefWindowProc(window_handle_, message, wparam, lparam);
@@ -279,29 +270,6 @@ bool Win32Window::OnCreate() {
 
 void Win32Window::OnDestroy() {
   // No-op; provided for subclasses.
-}
-
-void Win32Window::SetFullscreen(bool fullscreen) {
-  if (!window_handle_) {
-    return;
-  }
-
-  if (fullscreen) {
-    MONITORINFO monitor_info = {sizeof(monitor_info)};
-    if (GetMonitorInfo(MonitorFromWindow(window_handle_, MONITOR_DEFAULTTOPRIMARY),
-                       &monitor_info)) {
-      SetWindowLong(window_handle_, GWL_STYLE, WS_POPUP | WS_VISIBLE);
-      SetWindowPos(window_handle_, HWND_TOP, monitor_info.rcMonitor.left,
-                   monitor_info.rcMonitor.top,
-                   monitor_info.rcMonitor.right - monitor_info.rcMonitor.left,
-                   monitor_info.rcMonitor.bottom - monitor_info.rcMonitor.top,
-                   SWP_NOZORDER);
-    }
-  } else {
-    SetWindowLong(window_handle_, GWL_STYLE, WS_OVERLAPPEDWINDOW);
-    SetWindowPos(window_handle_, HWND_TOP, 10, 10, 1280, 720,
-                 SWP_NOZORDER | SWP_FRAMECHANGED);
-  }
 }
 
 void Win32Window::UpdateTheme(HWND const window) {

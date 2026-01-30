@@ -11,27 +11,6 @@
 
 #include "flutter/generated_plugin_registrant.h"
 
-// Fullscreen state tracker
-static gboolean is_fullscreen = FALSE;
-
-// Key press event handler for fullscreen toggle
-static gboolean on_key_press(GtkWidget* widget, GdkEventKey* event, gpointer user_data) {
-  GtkWindow* window = GTK_WINDOW(user_data);
-  
-  // F11 (0xffc1) or ESC (0xff1b)
-  if (event->keyval == GDK_KEY_F11 || event->keyval == GDK_KEY_Escape) {
-    is_fullscreen = !is_fullscreen;
-    
-    if (is_fullscreen) {
-      gtk_window_fullscreen(window);
-    } else {
-      gtk_window_unfullscreen(window);
-    }
-    return TRUE;
-  }
-  return FALSE;
-}
-
 struct _MyApplication {
   GtkApplication parent_instance;
   char** dart_entrypoint_arguments;
@@ -101,9 +80,6 @@ static void my_application_activate(GApplication* application) {
   fl_register_plugins(FL_PLUGIN_REGISTRY(view));
 
   gtk_widget_grab_focus(GTK_WIDGET(view));
-
-  // Connect key press event for fullscreen toggle
-  g_signal_connect(view, "key-press-event", G_CALLBACK(on_key_press), window);
 }
 
 // Implements GApplication::local_command_line.
