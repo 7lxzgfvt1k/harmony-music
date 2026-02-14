@@ -7,11 +7,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 import 'package:harmonymusic/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+    await initHive();
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
 
