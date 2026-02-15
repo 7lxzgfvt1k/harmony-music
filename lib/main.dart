@@ -146,4 +146,19 @@ class LifecycleHandler extends WidgetsBindingObserver {
       await Get.find<AudioHandler>().customAction("saveSession");
     }
   }
+
+  @override
+  void didChangeMetrics() {
+    if (GetPlatform.isAndroid) {
+      final isLandscape = MediaQueryData.fromWindow(WidgetsBinding.instance.window).orientation == Orientation.landscape;
+      if (isLandscape) {
+        SystemChrome.setEnabledSystemUIMode(
+          SystemUiMode.manual,
+          overlays: [SystemUiOverlay.top],
+        );
+      } else {
+        SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+      }
+    }
+  }
 }

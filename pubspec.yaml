@@ -28,58 +28,58 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  animations: ^2.0.11
-  app_links: ^3.5.1
-  archive: ^3.1.6
-  audio_service: ^0.18.17
-  audio_service_mpris: ^0.1.5
-  audio_video_progress_bar: ^2.0.3
-  audiotags: ^1.4.1
-  buttons_tabbar: ^1.3.13
-  cached_network_image: ^3.4.0
-  dio: ^5.7.0
-  file_picker: ^8.0.6
+  animations: 2.1.1
+  app_links: 3.5.1
+  archive: 4.0.7
+  audio_service: 0.18.18
+  audio_service_mpris: 0.2.0
+  audio_video_progress_bar: 2.0.3
+  audiotags: 1.4.2
+  buttons_tabbar: 1.3.15
+  cached_network_image: 3.4.1
+  dio: 5.9.1
+  file_picker: 10.3.10
   flutter:
     sdk: flutter
-  flutter_keyboard_visibility: ^6.0.0
-  flutter_lyric: ^2.0.4+6
-  flutter_slidable: ^3.1.2
-  get: ^4.7.1
-  google_fonts: ^6.3.3
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-  html: ^0.15.6
-  ionicons: ^0.2.2
-  jni: ^0.14.0
-  just_audio: ^0.9.46
+  flutter_keyboard_visibility: 6.0.0
+  flutter_lyric: 2.0.4+6
+  flutter_slidable: 4.0.3
+  get: 4.7.3
+  google_fonts: 8.0.1
+  hive: 2.2.3
+  hive_flutter: 1.1.0
+  html: 0.15.6
+  ionicons: 0.2.2
+  jni: 0.14.0
+  just_audio: 0.10.5
   just_audio_media_kit:
     git:
       url: https://github.com/anandnet/just_audio_media_kit.git
       ref: 6672eb82657d9e671abbf42122031c88aa9e6d80
-  palette_generator: ^0.3.3+4
-  path: ^1.8.3
-  path_provider: ^2.1.1
-  permission_handler: ^11.0.1
-  share_plus: ^10.1.4
-  package_info_plus: ^8.0.0
-  wakelock_plus: ^1.3.3
-  shimmer: ^3.0.0
+  palette_generator: 0.3.3+7
+  path: 1.9.1
+  path_provider: 2.1.5
+  permission_handler: 12.0.1
+  share_plus: 12.0.1
+  package_info_plus: 9.0.0
+  wakelock_plus: 1.4.0
+  shimmer: 3.0.0
   sidebar_with_animation:
     git:
       url: https://github.com/anandnet/animated_side_bar.git
       branch: main
       ref: b53567a42b4ba3793a3cf00d478bdba0ecce33d7
-  smtc_windows: ^0.1.2
+  smtc_windows: 0.1.3
   terminate_restart:
     git:
       url: https://github.com/anandnet/terminate_restart.git
       branch: main
       ref: eb505e07e11d0fe1f5c03993e707c6678428c353
-  toggle_switch: ^2.1.0
-  tray_manager: ^0.2.3
-  url_launcher: ^6.2.1
-  widget_marquee: ^0.0.8
-  window_manager: ^0.4.2
+  toggle_switch: 2.3.0
+  tray_manager: 0.5.2
+  url_launcher: 6.3.2
+  widget_marquee: 0.0.8
+  window_manager: 0.5.1
   youtube_explode_dart:
     git:
       url: https://github.com/anandnet/youtube_explode_dart.git
@@ -91,10 +91,10 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^4.0.0
+  flutter_lints: 6.0.0
   flutter_test:
     sdk: flutter
-  jnigen: ^0.14.0
+  jnigen: 0.15.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

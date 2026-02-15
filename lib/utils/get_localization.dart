@@ -248,7 +248,8 @@ Map<String, Map<String, String>> get keys => {
     "playingfromSelection": "اللعب من المختارة",
     "keepScreenOnWhilePlaying": "ابقِ الشاشة مضاءة أثناء التشغيل",
     "keepScreenOnWhilePlayingDes": "إذا تم التفعيل، ستبقى شاشة الجهاز مضاءة أثناء تشغيل الموسيقى"
-},"az" : {
+}
+,"az" : {
     "playlistCreatednsongAddedAlert": "Pleylist yaradıldı və mahnı əlavə edildi!",
     "dismiss": "Ləğv et",
     "goToDownloadPage": "Yükləmə səhifəsinə keçmək üçün bura kliklə",
@@ -395,7 +396,8 @@ Map<String, Map<String, String>> get keys => {
     "cancelTimerAlert": "Yuxu taymeri ləğv edildi",
     "keepScreenOnWhilePlaying": "Musiqi çalarkən ekranı açıq saxla",
     "keepScreenOnWhilePlayingDes": "Aktivdirsə, cihazın ekranı musiqi çalarkən açıq qalacaq"
-},"bg" : {
+}
+,"bg" : {
     "playlistCreatednsongAddedAlert": "Създаден плейлист и добавена песен!",
     "dismiss": "Отхвърли",
     "goToDownloadPage": "Натиснете тук за да отидете на страницата за изтегляне",
@@ -673,7 +675,8 @@ Map<String, Map<String, String>> get keys => {
     "linkCopied": "Връзката е копирана в клипборда",
     "keepScreenOnWhilePlaying": "Запази екрана включен по време на възпроизвеждане",
     "keepScreenOnWhilePlayingDes": "Ако е активирано, екранът на устройството ще остане включен по време на възпроизвеждане на музика"
-},"bn" : {
+}
+,"bn" : {
     "songs": "গানগুলো",
     "home": "হোম",
     "playlists": "প্লেলিস্ট",
@@ -941,7 +944,8 @@ Map<String, Map<String, String>> get keys => {
     "importPlaylistDesc": "আমদানি করার জন্য পূর্বে রপ্তানি করা একটি প্লেলিস্ট JSON ফাইল নির্বাচন করুন",
     "keepScreenOnWhilePlaying": "প্লে থাকাকালীন স্ক্রীন জ্বলন্ত রাখুন",
     "keepScreenOnWhilePlayingDes": "সক্রিয় করলে, গান চলাকালীন ডিভাইসের স্ক্রীন জ্বলে থাকবে"
-},"ca" : {
+}
+,"ca" : {
     "libPlaylists": "Col · lecció de llistes de reproducció",
     "libArtists": "Biblioteca d'Artistes",
     "communityplaylists": "Llistes de reproducció de la comunitat",
@@ -1211,7 +1215,8 @@ Map<String, Map<String, String>> get keys => {
     "importLargeFileNote": "Nota: La importació de llistes de reproducció grosses pot trigar més estona",
     "keepScreenOnWhilePlaying": "Mantenir la pantalla encesa mentre es reprodueix",
     "keepScreenOnWhilePlayingDes": "Si està activat, la pantalla del dispositiu romandrà encesa mentre es reprodueix música"
-},"cs" : {
+}
+,"cs" : {
     "home": "Domů",
     "playlistCreatednsongAddedAlert": "Playlist vytvořen a skladba přidána!",
     "dismiss": "Odmítnout",
@@ -1489,7 +1494,8 @@ Map<String, Map<String, String>> get keys => {
     "linkCopied": "Odkaz zkopírován do schránky",
     "keepScreenOnWhilePlaying": "Nechat obrazovku zapnutou během přehrávání",
     "keepScreenOnWhilePlayingDes": "Pokud je povoleno, obrazovka zařízení zůstane během přehrávání hudby zapnutá"
-},"de" : {
+}
+,"de" : {
     "home": "Start",
     "songs": "Lieder",
     "playlists": "Wiedergabelisten",
@@ -1762,7 +1768,8 @@ Map<String, Map<String, String>> get keys => {
     "importLargeFileNote": "Hinweis: Der Import großer Playlisten kann länger dauern",
     "keepScreenOnWhilePlaying": "Bildschirm während der Wiedergabe eingeschaltet lassen",
     "keepScreenOnWhilePlayingDes": "Wenn aktiviert, bleibt der Bildschirm des Geräts beim Musikhören eingeschaltet"
-},"en" : {
+}
+,"en" : {
     "home": "Home",
     "songs": "Songs",
     "playlists": "Playlists",
@@ -2036,7 +2043,15 @@ Map<String, Map<String, String>> get keys => {
     "exportToYouTubeMusicSubtitle": "It will push your playlist (songs < 50) to current queue, don't forget to add to playlist/save after opening in YtMusic",
     "linkCopied": "Link copied to clipboard",
     "keepScreenOnWhilePlaying": "Keep screen on while playing",
-    "keepScreenOnWhilePlayingDes": "If enabled, the device screen will stay awake while music is playing"
+    "keepScreenOnWhilePlayingDes": "If enabled, the device screen will stay awake while music is playing",
+    "addToLibrary": "Add to Library",
+    "play": "Play",
+    "enqueueAlbumSongs": "Enqueue this album",
+    "downloadAlbumSongs": "Download",
+    "shareAlbum": "Share this album",
+    "sortByDuration": "Sort by duration",
+    "sortByName": "Sort by name",
+    "sortAscendNDescend": "Toggle sorting"
 },"eo" : {
     "renamePlaylist": "Alinomi Ludliston",
     "trending": "Populara",
@@ -2197,7 +2212,8 @@ Map<String, Map<String, String>> get keys => {
     "resetblacklistedplaylist": "Rekomencigi nigralistigitajn ludlistojn",
     "keepScreenOnWhilePlaying": "Konservi ekrano ŝaltita dum ludado",
     "keepScreenOnWhilePlayingDes": "Se ebligita, la ekrano de la aparato restos ŝaltita dum muziko ludas"
-},"es" : {
+}
+,"es" : {
     "playlistCreatednsongAddedAlert": "¡Lista de reproducción creada y la canción fue añadida!",
     "dismiss": "Descartar",
     "goToDownloadPage": "Haga clic aquí para ir a la página de descargas",
@@ -2474,7 +2490,8 @@ Map<String, Map<String, String>> get keys => {
     "linkCopied": "Link copiado al portapapeles",
     "keepScreenOnWhilePlaying": "Mantener la pantalla encendida mientras se reproduce",
     "keepScreenOnWhilePlayingDes": "Si está activado, la pantalla del dispositivo permanecerá despierta mientras se reproduce música"
-},"et" : {
+}
+,"et" : {
     "home": "Avaleht",
     "songs": "Lood",
     "playlists": "Esitusloendid",
@@ -3154,7 +3171,8 @@ Map<String, Map<String, String>> get keys => {
     "cacheHomeScreenDataDes": "ذخیره سازی داده‌های محتوای صفحه اصلی را فعال کنید، اگر این گزینه فعال باشد، صفحه اصلی فوراً بارگیری می‌شود",
     "keepScreenOnWhilePlaying": "روشن نگه داشتن صفحه هنگام پخش",
     "keepScreenOnWhilePlayingDes": "در صورت فعال بودن، صفحه دستگاه هنگام پخش موسیقی روشن خواهد ماند"
-},"fi" : {
+}
+,"fi" : {
     "libAlbums": "Kirjaston albumit",
     "libArtists": "Kirjaston artistit",
     "homeContentCountDes": "Valitse lähtökohtainen aloitusnäkymän sisällön määrä. Pienempi määrä latautuu nopeammin",
@@ -3308,7 +3326,8 @@ Map<String, Map<String, String>> get keys => {
     "systemDefault": "Järjestelmän oletus",
     "keepScreenOnWhilePlaying": "Pidä näyttö päällä toiston aikana",
     "keepScreenOnWhilePlayingDes": "Jos käytössä, laitteen näyttö pysyy päällä musiikin toiston aikana"
-},"fil" : {
+}
+,"fil" : {
     "enqueueAll": "Patugtugin lahat",
     "recentlyPlayed": "Nakaraang Tugtugin",
     "playNext": "Sunod na patugtugin",
@@ -3522,7 +3541,8 @@ Map<String, Map<String, String>> get keys => {
     "allFieldsReqMsg": "Kailagan may laman ang mga field",
     "keepScreenOnWhilePlaying": "Panatilihing naka-on ang screen habang tumutugtog",
     "keepScreenOnWhilePlayingDes": "Kung naka-enable, mananatiling naka-on ang screen ng device habang tumutugtog ang musika"
-},"fj" : {
+}
+,"fj" : {
     "keepScreenOnWhilePlaying": "Taura na mata ni bula tiko ni qito",
     "keepScreenOnWhilePlayingDes": "Kevaka e vakayagataki, na mata ni iyaya ena bula tiko ni qito na sere"
 },"fr" : {
@@ -3805,7 +3825,8 @@ Map<String, Map<String, String>> get keys => {
     "linkCopied": "Lien copié dans le presse-papiers",
     "keepScreenOnWhilePlaying": "Garder l'écran allumé pendant la lecture",
     "keepScreenOnWhilePlayingDes": "S'il est activé, l'écran restera allumé pendant la lecture de la musique"
-},"ga" : {
+}
+,"ga" : {
     "keepScreenOnWhilePlaying": "Coinnigh an scáileán ar siúl agus tú ag seinm",
     "keepScreenOnWhilePlayingDes": "Má tá sé faoi ghníomh, coinníodhfaidh scáileán an ghléis ar siúl agus tú ag seinm ceoil"
 },"gl" : {
@@ -4078,7 +4099,8 @@ Map<String, Map<String, String>> get keys => {
     "importLargeFileNote": "Nota: As listaxes grandes poden tardar máis en importarse",
     "keepScreenOnWhilePlaying": "Manter a pantalla acesa mentres se reproduce",
     "keepScreenOnWhilePlayingDes": "Se está activado, a pantalla do dispositivo manterase acesa mentres se reproduce música"
-},"hi" : {
+}
+,"hi" : {
     "themeMode": "थीम मोड",
     "playlists": "प्लेलिस्ट",
     "albums": "एल्बम",
@@ -4316,7 +4338,8 @@ Map<String, Map<String, String>> get keys => {
     "songInfo": "गाने की जानकारी",
     "keepScreenOnWhilePlaying": "प्ले के दौरान स्क्रीन जला रखें",
     "keepScreenOnWhilePlayingDes": "यदि सक्षम है, तो संगीत चलाते समय डिवाइस की स्क्रीन जगी रहेगी"
-},"hr" : {
+}
+,"hr" : {
     "home": "Početna",
     "songs": "Pjesme",
     "playlists": "Playlista",
@@ -4343,7 +4366,8 @@ Map<String, Map<String, String>> get keys => {
     "selectAll": "Odaberi sve",
     "keepScreenOnWhilePlaying": "Ostavi zaslon uključen tijekom reprodukcije",
     "keepScreenOnWhilePlayingDes": "Ako je omogućeno, zaslon uređaja ostat će uključen tijekom reprodukcije glazbe"
-},"hu" : {
+}
+,"hu" : {
     "artists": "Előadók",
     "settings": "Beállítások",
     "home": "Kezdőlap",
@@ -4447,7 +4471,8 @@ Map<String, Map<String, String>> get keys => {
     "upNext": "Következő",
     "keepScreenOnWhilePlaying": "A képernyő bekapcsolva tartása lejátszás közben",
     "keepScreenOnWhilePlayingDes": "Ha engedélyezve van, a készülék képernyője lejátszás közben bekapcsolva marad"
-},"ia" : {
+}
+,"ia" : {
     "playlistCreatednsongAddedAlert": "Lista de reproduction create e canto addite!",
     "dismiss": "Dimitter",
     "songEnqueueAlert": "Canto in le cauda!",
@@ -4672,7 +4697,8 @@ Map<String, Map<String, String>> get keys => {
     "enableSlidableAction": "Activar le acciones glissabile",
     "keepScreenOnWhilePlaying": "Mantenir le schermo accendite durante le reproduction",
     "keepScreenOnWhilePlayingDes": "Si activate, le schermo del dispositivo remanera accendite durante le reproduction del musica"
-},"id" : {
+}
+,"id" : {
     "playlistCreatednsongAddedAlert": "Daftar Putar dibuat & lagu ditambahkan!",
     "dismiss": "Biarkan",
     "goToDownloadPage": "Klik di sini untuk pergi ke halaman unduh",
@@ -4940,7 +4966,8 @@ Map<String, Map<String, String>> get keys => {
     "importLargeFileNote": "Catatan: Daftar putar berukuran besar mungkin akan memakan waktu lama saat mengimpor",
     "keepScreenOnWhilePlaying": "Pertahankan layar tetap hidup saat memutar",
     "keepScreenOnWhilePlayingDes": "Jika diaktifkan, layar perangkat akan tetap menyala saat musik sedang diputar"
-},"it" : {
+}
+,"it" : {
     "home": "Pagina principale",
     "songs": "Canzoni",
     "playlists": "Playlist",
@@ -5215,7 +5242,8 @@ Map<String, Map<String, String>> get keys => {
     "linkCopied": "Link copiato negli appunti",
     "keepScreenOnWhilePlaying": "Mantieni lo schermo attivo durante la riproduzione",
     "keepScreenOnWhilePlayingDes": "Se abilitato, lo schermo del dispositivo resterà acceso mentre la musica viene riprodotta"
-},"ja" : {
+}
+,"ja" : {
     "playlistCreatednsongAddedAlert": "再生リストを作成し曲を追加しました！",
     "dismiss": "非表示",
     "goToDownloadPage": "ここをクリックし配布ページを開く",
@@ -5504,7 +5532,8 @@ Map<String, Map<String, String>> get keys => {
     "library": "បណ្ណាល័យ",
     "keepScreenOnWhilePlaying": "រក្សាអេក្រង់ឲ្យភ្លឺនៅពេលកំពុងចាក់",
     "keepScreenOnWhilePlayingDes": "ប្រសិនបើបានបើក អេក្រង់ឧបករណ៍នឹងនៅភ្លឺខណៈពេលចាក់តន្ត្រី"
-},"kn" : {
+}
+,"kn" : {
     "libArtists": "",
     "artists": "ಕಲಾವಿದರು",
     "home": "ಮುಖಪುಟ",
@@ -5524,7 +5553,8 @@ Map<String, Map<String, String>> get keys => {
     "renamePlaylist": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಮರುಹೆಸರಿಸಿ",
     "keepScreenOnWhilePlaying": "ಪ್ಲೇ ಮಾಡುವಾಗ ಪರದೆ ಜಾಗೃತವಾಗಿರಲಿ",
     "keepScreenOnWhilePlayingDes": "ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ, ಸಂಗೀತ ಪ್ಲೇ ಮಾಡುವಾಗ ಸಾಧನದ ಪರದೆ ಜಾಗೃತವಾಗಿರುತ್ತದೆ"
-},"ko" : {
+}
+,"ko" : {
     "deleteDownloadData": "다운로드에서 제거",
     "trending": "인기 급상승",
     "clearImgCache": "이미지 캐시 비우기",
@@ -5706,7 +5736,8 @@ Map<String, Map<String, String>> get keys => {
     "openIn": "열기",
     "keepScreenOnWhilePlaying": "재생 중 화면 켜짐 유지",
     "keepScreenOnWhilePlayingDes": "활성화하면 음악 재생 중에 기기 화면이 켜진 상태로 유지됩니다"
-},"ku" : {
+}
+,"ku" : {
     "keepScreenOnWhilePlaying": "Li demê lîstinê ekranê li ser bimîne",
     "keepScreenOnWhilePlayingDes": "Heke çalak be, ekranê amûrê di dema lîstinê de dikare bimîne"
 },"ml" : {
@@ -5773,7 +5804,8 @@ Map<String, Map<String, String>> get keys => {
     "playnextMsg": "വെരാൻ പോകുന്നത്",
     "keepScreenOnWhilePlaying": "പ്ലേ ചെയ്യുമ്പോൾ സ്‌ക്രീൻ ഓണായിരിക്കട്ടെ",
     "keepScreenOnWhilePlayingDes": "സജ്ജമാക്കിയാൽ, സംഗീതം പ്ലേ ചെയ്യുമ്പോൾ ഡിവൈസിന്റെ സ്‌ക്രീൻ ഓണായിരിക്കുമെന്ന് ഉറപ്പ ചെയ്യും"
-},"my" : {
+}
+,"my" : {
     "keepScreenOnWhilePlaying": "တေးဂီတဖျော်ဖြေနချိန် မျက်နှာပြင် မပွင့်ထားပါနဲ့",
     "keepScreenOnWhilePlayingDes": "ဖွင့်ထားပါက အသံလှည့်နေစဉ် စက်ပစ္စည်း၏ မျက်နှာပြင် မအိပ်ဘဲ ပွင့်နေပါလိမ့်မည်"
 },"nb_NO" : {
@@ -5916,7 +5948,8 @@ Map<String, Map<String, String>> get keys => {
     "minutes": "minutter",
     "keepScreenOnWhilePlaying": "Hold skjermen på under avspilling",
     "keepScreenOnWhilePlayingDes": "Hvis aktivert, vil enhetens skjerm være på mens musikk spilles"
-},"nl" : {
+}
+,"nl" : {
     "enqueueAll": "Alles in wachtrij",
     "removePlaylist": "Verwijder Afspeellijst",
     "playNext": "Speel volgende",
@@ -6105,7 +6138,8 @@ Map<String, Map<String, String>> get keys => {
     "selectAll": "Selecteer alle",
     "keepScreenOnWhilePlaying": "Scherm aanhouden tijdens afspelen",
     "keepScreenOnWhilePlayingDes": "Indien ingeschakeld blijft het scherm van het apparaat ingeschakeld tijdens het afspelen van muziek"
-},"or" : {
+}
+,"or" : {
     "playlistCreatednsongAddedAlert": "ପ୍ଲେଲିଷ୍ଟ ସୃଷ୍ଟି ଏବଂ ଗୀତ ଯୋଡା ଯାଇଛି!",
     "dismiss": "ବରଖାସ୍ତ",
     "goToDownloadPage": "ପୃଷ୍ଠା ଡାଉନଲୋଡ୍ କରିବାକୁ ଯିବାକୁ ଏଠାରେ କ୍ଲିକ୍ କରନ୍ତୁ",
@@ -6251,7 +6285,8 @@ Map<String, Map<String, String>> get keys => {
     "album": "ସଂଗ୍ରହପୁସ୍ତକ",
     "keepScreenOnWhilePlaying": "ସଙ୍ଗୀତ ଚଲିଥିବାବେଳେ ସ୍କ୍ରୀନ୍ ଚାଲୁ ରଖନ୍ତୁ",
     "keepScreenOnWhilePlayingDes": "ସକ୍ରିୟ କଲେ, ସଙ୍ଗୀତ ଚଳାଉଥିବା ସମୟରେ ଡିଭାଇସର ସ୍କ୍ରୀନ୍ ଜାଗ୍ରତ ରହିବ"
-},"pa" : {
+}
+,"pa" : {
     "playlistCreatednsongAddedAlert": "ਪਲੇਲਿਸਟ ਬਣਾਈ ਗਈ ਅਤੇ ਗੀਤ ਜੋੜਿਆ ਗਿਆ!",
     "dismiss": "ਖਾਰਿਜ ਕਰੋ",
     "goToDownloadPage": "ਡਾਊਨਲੋਡ ਪੰਨੇ 'ਤੇ ਜਾਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ",
@@ -6487,7 +6522,8 @@ Map<String, Map<String, String>> get keys => {
     "loudnessNormalizationDes": "ਸਾਰੇ ਗੀਤਾਂ (ਪ੍ਰਯੋਗਾਤਮਕ) ਲਈ ਉੱਚੀ ਆਵਾਜ਼ ਦਾ ਇੱਕੋ ਪੱਧਰ ਸੈੱਟ ਕਰਦਾ ਹੈ (ਪਿਛਲੇ ਸੰਸਕਰਣ (< v1.10.0) 'ਤੇ ਡਾਊਨਲੋਡ ਕੀਤੇ ਗੀਤਾਂ 'ਤੇ ਕੰਮ ਨਹੀਂ ਕਰੇਗਾ)",
     "keepScreenOnWhilePlaying": "ਸੰਗੀਤ ਚਲਾਉਣ ਦੌਰਾਨ ਸਕਰੀਨ ਚਾਲੂ ਰੱਖੋ",
     "keepScreenOnWhilePlayingDes": "ਜੇ ਇਹ ਚਾਲੂ ਕੀਤਾ ਗਿਆ ਹੈ, ਤਾਂ ਡਿਵਾਈਸ ਦੀ ਸਕ੍ਰੀਨ ਸੰਗੀਤ ਚਲਦੇ ਸਮੇਂ ਚਾਲੂ ਰਹੇਗੀ"
-},"pl" : {
+}
+,"pl" : {
     "home": "Główna",
     "songs": "Utwory",
     "playlists": "Playlisty",
@@ -6760,7 +6796,8 @@ Map<String, Map<String, String>> get keys => {
     "importError": "Błąd podczas importowania listy odtwarzania",
     "keepScreenOnWhilePlaying": "Utrzymuj ekran włączony podczas odtwarzania",
     "keepScreenOnWhilePlayingDes": "Jeśli włączone, ekran urządzenia pozostanie włączony podczas odtwarzania muzyki"
-},"pt" : {
+}
+,"pt" : {
     "renamePlaylist": "Renomear Playlist",
     "noLibPlaylist": "Você não tem uma biblioteca de playlist!",
     "networkError1": "Oops, erro de conexão!",
@@ -7030,7 +7067,8 @@ Map<String, Map<String, String>> get keys => {
     "importLargeFileNote": "Nota: Playlists longas pode levar mais tempo para importar",
     "keepScreenOnWhilePlaying": "Manter a tela ligada durante a reprodução",
     "keepScreenOnWhilePlayingDes": "Se ativado, a tela do dispositivo permanecerá ligada enquanto a música estiver sendo reproduzida"
-},"ro" : {
+}
+,"ro" : {
     "minutes": "minute",
     "results": "Rezultate",
     "about": "Despre",
@@ -7276,7 +7314,8 @@ Map<String, Map<String, String>> get keys => {
     "id": "Id",
     "keepScreenOnWhilePlaying": "Păstrează ecranul aprins în timpul redării",
     "keepScreenOnWhilePlayingDes": "Dacă este activat, ecranul dispozitivului va rămâne aprins în timp ce muzica se redă"
-},"ru" : {
+}
+,"ru" : {
     "home": "Главная",
     "songs": "Песни",
     "playlists": "Плейлисты",
@@ -7554,7 +7593,8 @@ Map<String, Map<String, String>> get keys => {
     "linkCopied": "Ссылка скопирована в буфер обмена",
     "keepScreenOnWhilePlaying": "Держать экран включенным во время воспроизведения",
     "keepScreenOnWhilePlayingDes": "Если включено, экран устройства будет оставаться включенным во время воспроизведения музыки"
-},"sk" : {
+}
+,"sk" : {
     "nomatch": "Nenašla sa žiadna zhoda pre",
     "subscribers": "Odberatelia",
     "operationFailed": "Operácia zlyhala",
@@ -7831,7 +7871,8 @@ Map<String, Map<String, String>> get keys => {
     "linkCopied": "Odkaz skopírovaný do schránky",
     "keepScreenOnWhilePlaying": "Nechajte obrazovku zapnutú počas prehrávania",
     "keepScreenOnWhilePlayingDes": "Ak je povolené, obrazovka zariadenia zostane zapnutá počas prehrávania hudby"
-},"sr" : {
+}
+,"sr" : {
     "playlistCreatednsongAddedAlert": "Плејлиста је направљена и песма је додата!",
     "dismiss": "Одбаци",
     "goToDownloadPage": "Кликните овде да бисте отишли на страницу за преузимање",
@@ -8102,7 +8143,8 @@ Map<String, Map<String, String>> get keys => {
     "importErrorFormat": "Неважећи формат фајла",
     "keepScreenOnWhilePlaying": "Одржавај екран укљученим током репродукције",
     "keepScreenOnWhilePlayingDes": "Ако је омогућено, екран уређаја ће остати укључен док се репродукује музика"
-},"sv" : {
+}
+,"sv" : {
     "settings": "Inställningar",
     "library": "Bibliotek",
     "libSongs": "Låtar i Bibliotek",
@@ -8271,7 +8313,8 @@ Map<String, Map<String, String>> get keys => {
     "goToDownloadPage": "Klicka här för att gå till nedladdningssidan",
     "keepScreenOnWhilePlaying": "Håll skärmen på under uppspelning",
     "keepScreenOnWhilePlayingDes": "Om aktiverat förblir enhetens skärm på medan musik spelas"
-},"ta" : {
+}
+,"ta" : {
     "CreateNewPlaylist": "புதிய பட்டியலை உருவாக்கு",
     "home": "முகப்பு",
     "playlists": "இசைப்பட்டியல்",
@@ -8539,7 +8582,8 @@ Map<String, Map<String, String>> get keys => {
     "importLargeFileNote": "குறிப்பு: பெரிய பிளேலிஸ்ட்களை இறக்குமதி செய்ய அதிக நேரம் ஆகலாம்",
     "keepScreenOnWhilePlaying": "ப்ளே செய்யும்போது திரையை இயக்க 상태வை வைத்திரு",
     "keepScreenOnWhilePlayingDes": "செயல்படுத்தப்பட்டால், இசை ஓடும்போது சாதனத்தின் திரை பயங்கரவாக இருக்கும்"
-},"te" : {
+}
+,"te" : {
     "selectSongs": "పాటలను ఎంచుకోండి",
     "openIn": "తెరవండి",
     "randomRadio": "యాదృచ్ఛిక రేడియో",
@@ -8676,7 +8720,8 @@ Map<String, Map<String, String>> get keys => {
     "exporting": "ఎగుమతి చేస్తున్నది...",
     "keepScreenOnWhilePlaying": "సంగీతం ప్లే చేస్తున్నప్పుడు స్క్రీన్ ఆన్ ఉంచండి",
     "keepScreenOnWhilePlayingDes": "సక్రియపెడితే, సంగీతం ప్లే చేస్తున్నప్పుడు పరికరం యొక్క స్క్రీన్ ఆన్ గా ఉంటుంది"
-},"tr" : {
+}
+,"tr" : {
     "renamePlaylist": "Çalma Listesini Yeniden Adlandır",
     "networkError1": "Oops ağ hatası!",
     "libSongs": "Kitaplık Şarkıları",
@@ -9244,7 +9289,8 @@ Map<String, Map<String, String>> get keys => {
     "libSongs": "لائبریری کے گانے",
     "keepScreenOnWhilePlaying": "پلے ہوتے وقت اسکرین کو روشن رکھیں",
     "keepScreenOnWhilePlayingDes": "اگر فعال ہو تو، جب موسیقی چل رہی ہوگی تو ڈیوائس کی اسکرین روشن رہے گی"
-},"vi" : {
+}
+,"vi" : {
     "home": "Trang chủ",
     "songs": "Bài hát",
     "create": "Tạo",
@@ -9799,7 +9845,8 @@ Map<String, Map<String, String>> get keys => {
     "exportPlaylistCsvSubtitle": "无法在此处导入",
     "keepScreenOnWhilePlaying": "播放时保持屏幕常亮",
     "keepScreenOnWhilePlayingDes": "启用后，播放音乐时设备屏幕将保持点亮"
-},"zh-TW" : {
+}
+,"zh-TW" : {
     "createnAdd": "建立並新增",
     "cachedOrOffline": "快取/離線",
     "CreateNewPlaylist": "建立新的播放清單",
@@ -10067,6 +10114,7 @@ Map<String, Map<String, String>> get keys => {
     "importLargeFileNote": "注意：匯入大型播放清單可能需要更長的時間",
     "keepScreenOnWhilePlaying": "播放時保持螢幕常亮",
     "keepScreenOnWhilePlayingDes": "啟用後，播放音樂時設備螢幕將保持亮起"
-},
+}
+,
  };
 }
